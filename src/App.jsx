@@ -7,13 +7,12 @@ import Navbar from './compoents/Navbar';
 
 export default function App() {
   return (
-    <div className='bg-gray-900 text-white h-screen'>
+    <div className='bg-gray-900 text-white'>
 
 
       <Navbar/>      
       <BrowserRouter>
       
-      <h1 className="text-red-500">App.js heading</h1>
 
 
       <Routes>

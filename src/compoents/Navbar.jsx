@@ -53,7 +53,7 @@ export default function Navbar() {
             </div>
 
             {/* Responsive Navigation Links */}
-            <ul className={`mt-3 text-lg absolute left-0 pl-3 bg-gray-900 w-full ${showLinks ? 'block' : 'hidden'}`}>
+            <ul className={`mt-3 text-lg absolute left-0 pl-3 bg-gray-900 w-full z-20 ${showLinks ? 'block' : 'hidden'}`}>
                 <li className="mb-2 lg:mb-0 lg:mr-4">
                     <p to='/' className="text-white">Projects</p>
                 </li>
