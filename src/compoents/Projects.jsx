@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectCard from './ProjectCard';
 import { Link } from 'react-router-dom';
 
-import { projectDetails } from '../utils/Details';
+import { topProjectDetails } from '../utils/Details';
 
 export default function Projects() {
 
@@ -13,7 +13,7 @@ export default function Projects() {
 
         <div className='flex flex-wrap justify-center md:justify-around w-full'>
 
-          {projectDetails.map((data, index) => (
+          {topProjectDetails.map((data, index) => (
             <ProjectCard data={data} key={index} />
           ))}
         </div>
