@@ -1,7 +1,7 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 
-import profile from '../../public/assets/profile.png';
+import profile from '/assets/profile.png';
 import { RESUME_URL } from '../utils/Details';
 import { Link } from 'react-router-dom';
 import { I_AM } from '../utils/Details';

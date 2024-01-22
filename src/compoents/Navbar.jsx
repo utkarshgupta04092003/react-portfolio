@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import githubicon from '../../public/assets/github.jpg';
-import linkedinicon from '../../public/assets/images.png';
-import hamburger from '../../public/assets/hamburger.png';
-import close from '../../public/assets/close.png';
+import githubicon from '/assets/github.jpg';
+import linkedinicon from '/assets/images.png';
+import hamburger from '/assets/hamburger.png';
+import close from '/assets/close.png';
 
 export default function Navbar() {
 
