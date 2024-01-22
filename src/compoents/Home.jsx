@@ -3,6 +3,8 @@ import Hero from './Hero'
 import Projects from './Projects'
 import Technologies from './Technologies'
 import AdditionalTechnologies from './AdditionalTechnologies'
+import Education from './Educations'
+import Contact from './Contact'
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <Projects/>
       <Technologies/>
       <AdditionalTechnologies/>
+      <Education/>
+      <Contact/>
       
     </div>
   )

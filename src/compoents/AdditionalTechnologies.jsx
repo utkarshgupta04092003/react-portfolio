@@ -14,7 +14,7 @@ export default function AdditionalTechnologies() {
       <ul className='list-disc flex flex-wrap justify-center w-full'>
 
         {additionalTechDetails.map((curr, index) => (
-          <li className='w-1/4 md:w-1/3 m-5 font-bold text-lg md:text-2xl' key={index}>{curr.tech}</li>
+          <li className='w-1/4 md:w-1/5 m-5 font-bold text-lg md:text-2xl' key={index}>{curr.tech}</li>
         ))}
 
       </ul>
