@@ -20,7 +20,7 @@ export default function Projects() {
       </div>
 
       <button className='bg-gradient-to-r from-primary to-secondary p-1 px-5 text-lg rounded-full w-1/2 block mx-auto my-5'>
-        <Link>
+        <Link to={'/projects'}>
           All Projects
         </Link>
         </button>

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { allProjectDetails } from '../utils/Details';
 
-export default function ProjectCard({ data }) {
+function ProjectCard({ data }) {
 
   console.log('project card dta: ', data);
   return (
 
-      <div className='border border-white shadow-md rounded-tl-3xl rounded-br-3xl shadow-white w-full md:w-1/3 m-2 my-5 p-3'>
+      <div className='border border-white shadow-md rounded-tl-3xl rounded-br-3xl shadow-white w-full md:min-w-[300px] md:w-1/4 m-2 mx-5 my-5 p-3'>
         <div className="image my-2">
           <img src={data?.image} alt="project preview" className='rounded-lg' />
         </div>
@@ -23,5 +24,25 @@ export default function ProjectCard({ data }) {
 
       </div>
 
+  )
+}
+
+
+export default function AllProjects() {
+
+    
+
+  return (
+    <div className='w-full brdr-red'>
+        <div className="flex justify-center mx-auto flex-wrap p-5 w-full brdr-red">
+
+        {allProjectDetails.map((data,index)=>(
+            // <div className='w-[80%]'>
+                
+            <ProjectCard data={data} key={index}/>
+            // </div>
+            ))}
+            </div>
+    </div>
   )
 }

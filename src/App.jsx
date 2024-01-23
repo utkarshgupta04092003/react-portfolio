@@ -4,8 +4,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import ocmponents
 import Home from './compoents/Home';
 import Navbar from './compoents/Navbar';
-import Hero from './compoents/Hero';
 import ProjectDetails from './compoents/ProjectDetails';
+import AllProjects from './compoents/AllProjects';
+import Error from './compoents/Error';
 
 
 export default function App() {
@@ -21,8 +22,9 @@ export default function App() {
       <Routes>
         <Route>
           <Route path='/' element={<Home/>}/>
+          <Route path='/projects' element={<AllProjects/>}/>
           <Route path='/project/:id' element={<ProjectDetails/>}/>
-          <Route path='*' element={<Hero/>}/>
+          <Route path='*' element={<Error />} />
         </Route>
       </Routes>
 

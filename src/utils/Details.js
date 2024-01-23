@@ -79,15 +79,15 @@ export const additionalTechDetails = [
     {
         tech: 'Teamwork',
         level: 80
-    }, 
-    
+    },
+
 
 
 ]
 
 
 
-// Enter your Project Details here
+// Top projects for home page only
 export const topProjectDetails = [
     {
         id: 1,
@@ -129,4 +129,69 @@ export const topProjectDetails = [
         previewLink: "https://google.com",
         githubLink: "https://github.com",
     }
+];
+
+
+// All projects for project route
+export const allProjectDetails = [
+    {
+        id:1,
+        title: "Project title 1",
+        image: dummyProjectImage,
+        description: `This is sample project description random things are here in description This is sample
+  project lorem ipsum generator for dummy content`,
+        techstack: "HTML/CSS, JavaScript",
+        previewLink: "https://google.com",
+        githubLink: "https://github.com",
+    },
+    {
+        id:2,
+        title: "Project title 2",
+        image: dummyProjectImage,
+        description: `This is sample project description random things are here in description This is sample
+  project lorem ipsum generator for dummy content`,
+        techstack: "HTML/CSS, JavaScript",
+        previewLink: "https://google.com",
+        githubLink: "https://github.com",
+    },
+    {
+        id:3,
+        title: "Project title 3",
+        image: dummyProjectImage,
+        description: `This is sample project description random things are here in description This is sample
+  project lorem ipsum generator for dummy content`,
+        techstack: "HTML/CSS, JavaScript",
+        previewLink: "https://google.com",
+        githubLink: "https://github.com",
+    },
+    {
+        id:4,
+        title: "Project title 4",
+        image: dummyProjectImage,
+        description: `This is sample project description random things are here in description This is sample
+  project lorem ipsum generator for dummy content`,
+        techstack: "HTML/CSS, JavaScript",
+        previewLink: "https://google.com",
+        githubLink: "https://github.com",
+    },
+    {
+        id:5,
+        title: "Project title 5",
+        image: dummyProjectImage,
+        description: `This is sample project description random things are here in description This is sample
+  project lorem ipsum generator for dummy content`,
+        techstack: "HTML/CSS, JavaScript",
+        previewLink: "https://google.com",
+        githubLink: "https://github.com",
+    },
+    {
+        id:6,
+        title: "Project title 6",
+        image: dummyProjectImage,
+        description: `This is sample project description random things are here in description This is sample
+  project lorem ipsum generator for dummy content`,
+        techstack: "HTML/CSS, JavaScript",
+        previewLink: "https://google.com",
+        githubLink: "https://github.com",
+    },
 ];
