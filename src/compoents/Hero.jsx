@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="details mt-8 md:m-0 text-center md:text-left w-2/3 md:w-1/3">
 
           <div>
-            <h1 className="underline decoration-secondary text-[1.2rem] md:text-[4rem]">Utkarsh Gupta</h1>
+            <h1 className=" text-[1.2rem] md:text-[4rem]">Utkarsh Gupta</h1>
           </div>
 
           <div>

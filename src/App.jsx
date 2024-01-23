@@ -7,6 +7,10 @@ import Navbar from './compoents/Navbar';
 import ProjectDetails from './compoents/ProjectDetails';
 import AllProjects from './compoents/AllProjects';
 import Error from './compoents/Error';
+import Technologies from './compoents/Technologies';
+import AdditionalTechnologies from './compoents/AdditionalTechnologies';
+import About from './compoents/Educations';
+import Footer from './compoents/Footer';
 
 
 export default function App() {
@@ -14,8 +18,8 @@ export default function App() {
     <div className='bg-gray-900 text-white'>
 
 
-      <Navbar/>      
       <BrowserRouter>
+      <Navbar/>      
       
 
 
@@ -24,9 +28,13 @@ export default function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<AllProjects/>}/>
           <Route path='/project/:id' element={<ProjectDetails/>}/>
+          <Route path='/technologies' element={<><Technologies/><AdditionalTechnologies/></>}/>
+
           <Route path='*' element={<Error />} />
         </Route>
       </Routes>
+
+      <Footer/>
 
 
       </BrowserRouter>

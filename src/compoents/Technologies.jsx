@@ -24,7 +24,7 @@ function RangeBar({ level, tech }) {
 export default function Technologies() {
 
   return (
-    <div className='w-4/5 mx-auto brdr-red'>
+    <div className='w-4/5 mx-auto brdr-red' id='technologies'>
 
       <h2 className='text-[1.5rem] md:text-[3rem] my-3 md:my-10 fond-bold'>Technologies</h2>
 

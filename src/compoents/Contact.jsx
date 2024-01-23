@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import {contactDetails} from '../utils/Details';
+import { socialMediaUrl } from '../utils/Details';
 const Contact = () => {
 
   const [name, setName] = useState('');
@@ -67,22 +68,22 @@ const Contact = () => {
               </div>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-2">Email</h3>
-                <p className='word-break'><Link to={'mailto:utkarshgupta04092003@gmail.com'}>utkarshgupta04092003@gmail.com</Link></p>
+                <p className='word-break'><Link to={`mailto:${contactDetails.email}`}>{contactDetails.email}</Link></p>
               </div>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-2">Phone</h3>
-                <p>+91 9999999999</p>
+                <p>{contactDetails.phone}</p>
               </div>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-2">Social Media</h3>
                 <p>
-                  <a href="https://www.linkedin.com/in/utkarshgupta04092003" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
+                  <a href={socialMediaUrl.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
                     LinkedIn
                   </a>
-                  <a href="#" rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
+                  <a href={socialMediaUrl.twitter} rel="noopener noreferrer" className="text-blue-500 hover:underline mr-4">
                     Twitter
                   </a>
-                  <a href="https://www.instagram.com/utkarsh_official" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                  <a href={socialMediaUrl.instagram} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
                     Instagram
                   </a>
                 </p>

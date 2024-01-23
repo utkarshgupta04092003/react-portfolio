@@ -143,6 +143,7 @@ export const allProjectDetails = [
         techstack: "HTML/CSS, JavaScript",
         previewLink: "https://google.com",
         githubLink: "https://github.com",
+        tags: ['html', 'css', 'javascript', 'React', 'Tailwind']
     },
     {
         id:2,
@@ -153,6 +154,8 @@ export const allProjectDetails = [
         techstack: "HTML/CSS, JavaScript",
         previewLink: "https://google.com",
         githubLink: "https://github.com",
+        tags: ['html', 'css', 'javascript', 'React', 'Tailwind']
+
     },
     {
         id:3,
@@ -163,6 +166,8 @@ export const allProjectDetails = [
         techstack: "HTML/CSS, JavaScript",
         previewLink: "https://google.com",
         githubLink: "https://github.com",
+        tags: ['html', 'css', 'javascript', 'React', 'Tailwind']
+
     },
     {
         id:4,
@@ -173,6 +178,8 @@ export const allProjectDetails = [
         techstack: "HTML/CSS, JavaScript",
         previewLink: "https://google.com",
         githubLink: "https://github.com",
+        tags: ['html', 'css', 'javascript', 'React', 'Tailwind']
+
     },
     {
         id:5,
@@ -183,6 +190,8 @@ export const allProjectDetails = [
         techstack: "HTML/CSS, JavaScript",
         previewLink: "https://google.com",
         githubLink: "https://github.com",
+        tags: ['html', 'css', 'javascript', 'React', 'Tailwind']
+
     },
     {
         id:6,
@@ -193,5 +202,24 @@ export const allProjectDetails = [
         techstack: "HTML/CSS, JavaScript",
         previewLink: "https://google.com",
         githubLink: "https://github.com",
+        tags: ['html', 'css', 'javascript', 'React', 'Tailwind']
+
     },
 ];
+
+
+
+// Contact Details here
+export const contactDetails = {
+    email: "utkarshgupta04092003@gmail.com",
+    phone: "+91 9999999999",
+  };
+
+//Social Media URLs here
+export const socialMediaUrl = {
+    linkedin: "https://www.linkedin.com/in/utkarshgupta04092003",
+    github: "https://www.github.com/utkarshgupta04092003",
+    twitter: "#",
+    instagram: "https://www.instagram.com/utkarsh_official",
+  };
+  
