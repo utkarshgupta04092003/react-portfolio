@@ -13,7 +13,7 @@ export default function Navbar() {
 
 
     return (
-        <div className='border border-gray-900 bg-gray-900 text-white px-3 lg:px-16 py-3 text-lg md:text-2xl shadow-2xl h-[7vh] md:h-[9vh] brdr-red'>
+        <div className='border border-gray-900 bg-gray-900 text-white px-3 lg:px-16 py-3 text-lg md:text-2xl shadow-2xl h-[7vh] md:h-[9vh]'>
 
 
 

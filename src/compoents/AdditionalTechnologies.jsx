@@ -6,7 +6,7 @@ import { additionalTechDetails } from '../utils/Details';
 export default function AdditionalTechnologies() {
 
   return (
-    <div className='w-4/5 mx-auto brdr-red'>
+    <div className='w-4/5 mx-auto'>
 
       <h2 className='text-[1.5rem] md:text-[3rem] my-3 md:my-10 fond-bold'>Additional Technologies</h2>
 

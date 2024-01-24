@@ -6,6 +6,7 @@ export const I_AM = [' React.js Developer', ' Full Stack Developer', 'I build th
 
 const dummyProjectImage = 'https://images.unsplash.com/photo-1526779259212-939e64788e3c?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 
+const IMAGE_BASE_URL = 'https://raw.githubusercontent.com/Frontend-mini-projects/portfolio-assets/main/projects/htmlcss/'
 
 // Tech Stack and Tools
 export const techStackDetails = [

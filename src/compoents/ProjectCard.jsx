@@ -7,8 +7,8 @@ export default function ProjectCard({ data }) {
   return (
 
       <div className='border border-white shadow-md rounded-tl-3xl rounded-br-3xl shadow-white w-full md:w-1/3 m-2 my-5 p-3'>
-        <div className="image my-2">
-          <img src={data?.image} alt="project preview" className='rounded-lg' />
+        <div className="image my-2 h-[150px] md:h-[200px]">
+          <img src={data?.image} alt="project preview" className='rounded-lg h-full' />
         </div>
 
         <div className="text-[1.2rem] md:text-[1.5rem] fond-bold uppercase text-center">{data?.title}

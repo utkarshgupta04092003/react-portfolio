@@ -6,8 +6,12 @@ import { topProjectDetails } from '../utils/Details';
 
 export default function Projects() {
 
+  topProjectDetails.sort((a,b)=>{
+    return (b.id-a.id);
+  })
+
   return (
-    <div className='brdr-red  '>
+    <div className=''>
       <div className='w-4/5 mx-auto'>
         <h2 className='text-[1.5rem] md:text-[3rem] my-3 md:my-10 fond-bold'>Projects</h2>
 

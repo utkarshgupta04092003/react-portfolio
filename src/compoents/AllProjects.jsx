@@ -9,9 +9,9 @@ function ProjectCard({ data }) {
 
     <div className='border border-white shadow-md rounded-tl-3xl rounded-br-3xl shadow-white w-full md:min-w-[300px] md:w-1/4 m-2 mx-5 my-5 p-3'>
       <Link to={`/project/${data.id}`}>
-        <div className="image my-2">
+        <div className="image my-2 h-[180px]">
 
-          <img src={data?.image} alt="project preview" className='rounded-lg' />
+          <img src={data?.image} alt="project preview" className='rounded-lg h-full' />
         </div>
 
         <div className="text-[1.2rem] md:text-[1.5rem] fond-bold capitalize text-center">{data?.title}
@@ -38,14 +38,15 @@ function ProjectCard({ data }) {
 
 export default function AllProjects() {
 
-
+  // sort in descending order
   allProjectDetails.sort((a,b)=>{
     return (b.id-a.id);
   });
+  
   // console.log('all projefcts',allProjects)
   return (
-    <div className='w-full brdr-red'>
-      <div className="flex justify-center mx-auto flex-wrap p-5 w-full brdr-red">
+    <div className='w-full'>
+      <div className="flex justify-center mx-auto flex-wrap p-5 w-full">
 
         {allProjectDetails.map((data, index) => (
 

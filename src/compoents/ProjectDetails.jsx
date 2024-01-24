@@ -23,16 +23,16 @@ const ProjectDetails = () => {
       <h1>No datafound</h1>
     </div>
   ) : (
-    <div className=" mx-auto mt-0 p-4 bg-white dark:bg-gray-800 rounded-md shadow-md md:p-10 md:py-24">
+    <div className=" mx-auto mt-0 p-4 bg-white dark:bg-gray-900 rounded-md shadow-md md:p-10 md:py-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Project Image */}
-        <div className='md:w-3/4 mx-auto'>
-          <img src={currProject?.image} alt={currProject.title} className="w-full h-auto rounded-md" />
+        <div className='md:w-3/4 mx-auto h-[180px] md:h-[280px] shadow-md shadow-white rounded-lg'>
+          <img src={currProject?.image} alt={currProject.title} className="w-full h-full  rounded-md" />
         </div>
 
 
         {/* Project Details */}
-        <div className='md:w-1/2'>
+        <div className='md:w-2/3'>
           <h1 className="text-3xl font-bold mb-4">{currProject?.title}</h1>
 
           <p className="text-gray-700 dark:text-gray-300 mb-4">{currProject?.description}</p>
@@ -48,14 +48,14 @@ const ProjectDetails = () => {
             </div>
             <strong>GitHub:</strong>{' '}
             <a href={currProject?.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              {currProject?.githubLink}
+              Click here
             </a>
           </div>
 
           <div>
             <strong>Hosted Link:</strong>{' '}
             <a href={currProject?.previewLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              {currProject?.previewLink}
+              Click here
             </a>
           </div>
         </div>

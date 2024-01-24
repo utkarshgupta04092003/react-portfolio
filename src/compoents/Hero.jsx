@@ -9,7 +9,7 @@ import { I_AM } from '../utils/Details';
 export default function Hero() {
   return (
     <div>
-      <div className="brdr-red h-[50vh] md:h-[91vh] w-full flex flex-col md:flex-row-reverse justify-center md:justify-around items-center">
+      <div className="h-[50vh] md:h-[91vh] w-full flex flex-col md:flex-row-reverse justify-center md:justify-around items-center">
 
         <div className="relative w-[150px] md:w-[300px] flex justify-center items-center">
           <img

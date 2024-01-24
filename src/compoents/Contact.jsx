@@ -19,7 +19,7 @@ const Contact = () => {
 
   return (
 
-    <div className='w-4/5 mx-auto brdr-red'>
+    <div className='w-4/5 mx-auto'>
       <h2 className='text-[1.5rem] md:text-[3rem] my-3 md:mt-10 fond-bold'>Contact me</h2>
 
       <div className=" flex flex-col md:flex-row items-center justify-around">
