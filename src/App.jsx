@@ -11,6 +11,7 @@ import Technologies from './compoents/Technologies';
 import AdditionalTechnologies from './compoents/AdditionalTechnologies';
 import About from './compoents/Educations';
 import Footer from './compoents/Footer';
+import Contact from './compoents/Contact';
 
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<AllProjects/>}/>
           <Route path='/project/:id' element={<ProjectDetails/>}/>
+          <Route path='/contact' element={<Contact/>}/>
           <Route path='/technologies' element={<><Technologies/><AdditionalTechnologies/></>}/>
 
           <Route path='*' element={<Error />} />

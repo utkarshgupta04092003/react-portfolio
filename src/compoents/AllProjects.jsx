@@ -14,7 +14,7 @@ function ProjectCard({ data }) {
           <img src={data?.image} alt="project preview" className='rounded-lg' />
         </div>
 
-        <div className="text-[1.2rem] md:text-[1.5rem] fond-bold uppercase text-center">{data?.title}
+        <div className="text-[1.2rem] md:text-[1.5rem] fond-bold capitalize text-center">{data?.title}
           <p className='mx-auto my-2 bg-gradient-to-r from-primary to-secondary rounded-full bg-white w-3/4 h-[2px]'></p>
         </div>
 
@@ -24,7 +24,7 @@ function ProjectCard({ data }) {
 
             {data.tags.map((tag,index)=>(
               
-          <button className='bg-gradient-to-r from-primary to-secondary p-1 px-3 text-md rounded-full mx-1 mt-5' key={index}>{tag}
+          <button className='bg-gradient-to-r from-primary to-secondary capitalize p-1 px-3 text-md rounded-full mx-1 mt-5' key={index}>{tag}
           </button>
             ))}
         </div>
@@ -39,7 +39,10 @@ function ProjectCard({ data }) {
 export default function AllProjects() {
 
 
-
+  allProjectDetails.sort((a,b)=>{
+    return (b.id-a.id);
+  });
+  // console.log('all projefcts',allProjects)
   return (
     <div className='w-full brdr-red'>
       <div className="flex justify-center mx-auto flex-wrap p-5 w-full brdr-red">

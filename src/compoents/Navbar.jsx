@@ -29,7 +29,7 @@ export default function Navbar() {
                         <p className="text-white"><Link to={`/technologies`}>Technologies</Link></p>
                     </li>
                     <li className="mr-4">
-                        <p className="text-white"><Link to={'/'}>About me</Link></p>
+                        <p className="text-white"><Link to={'/contact'}>Contact</Link></p>
                     </li>
 
                 </ul>
@@ -68,7 +68,7 @@ export default function Navbar() {
                     <Link to='/technologies' className="text-white">Technologies</Link>
                 </li>
                 <li className="mb-2 lg:mb-0 lg:mr-4">
-                    <Link to={'/'} className="text-white">About me</Link>
+                    <Link to={'/contact'} className="text-white">Contact</Link>
                 </li>
 
 
