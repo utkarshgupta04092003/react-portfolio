@@ -1,5 +1,5 @@
 // resume url
-export const RESUME_URL = 'http://www.greetai.epizy.com';
+export const RESUME_URL = 'https://drive.google.com/file/d/1zJtmUIxaqz4QEG4stlPkjzYKQCMeEEgr/view?usp=sharing';
 
 // type writter effect data
 export const I_AM = [' React.js Developer', ' Full Stack Developer', 'I build things for web']
@@ -92,14 +92,14 @@ export const additionalTechDetails = [
 // Top projects for home page only
 export const topProjectDetails = [
   {
-    id: 24,
-    title: "React Dark Mode Using Tailwind",
-    image: IMAGE_BASE_URL+'24.jpg',
-    description: `The React Dark Mode App is a simple web application built with Vite, React, Tailwind CSS, and Context API.`,
-    techstack: "HTML/CSS, JavaScript, React, Redux",
-    previewLink: "https://utdarkmode.netlify.app/",
-    githubLink: "https://github.com/utkarshgupta04092003/darkmode",
-    tags: ['React', 'Redux' , 'Context API', 'Tailwind']
+    id: 28,
+    title: "Image to text",
+    image: IMAGE_BASE_URL+'28.jpg',
+    description: `Text2Script is a React application designed to convert images containing text into editable text format using the API-Ninjas API. Users can upload an image, extract text from it.`,
+    techstack: "HTML/CSS, JavaScript, React, Rest API",
+    previewLink: "https://utimage2text.netlify.app/",
+    githubLink: "https://github.com/utkarshgupta04092003/image-to-text",
+    tags: ['React','Tailwind CSS','API-Ninjas API', 'Rest API']
 
   },
   {
@@ -432,7 +432,18 @@ export const allProjectDetails = [
     techstack: "HTML/CSS, JavaScript, React",
     previewLink: "https://utecommerce.netlify.app/",
     githubLink: "https://github.com/utkarshgupta04092003/ecommerce-using-fakestoreapi/",
-    tags: ['React','Redux','Context API','Tailwind CSS','FakeStoreAPI','React Router DOM','Formik','Yup','SweetAlert']
+    tags: ['React','Redux','Context','Tailwind CSS','FakeStoreAPI','Formik']
+
+  },
+  {
+    id: 28,
+    title: "Image to text",
+    image: IMAGE_BASE_URL+'28.jpg',
+    description: `Text2Script is a React application designed to convert images containing text into editable text format using the API-Ninjas API. Users can upload an image, extract text from it by clicking on the "Extract Text" button, and view the extracted text in a box below. Additionally, there is a "Copy" button that allows users to copy the extracted text to the clipboard.`,
+    techstack: "HTML/CSS, JavaScript, React, Rest API",
+    previewLink: "https://utimage2text.netlify.app/",
+    githubLink: "https://github.com/utkarshgupta04092003/image-to-text",
+    tags: ['React','Tailwind CSS','API-Ninjas API', 'Rest API']
 
   },
 ];
@@ -442,7 +453,7 @@ export const allProjectDetails = [
 
 // Contact Details here
 export const contactDetails = {
-    email: "utkarshgupta04092003@gmail.com",
+    email: "utkarshkasaudhan04092003@gmail.com",
     phone: "+91 9999999999",
   };
 
@@ -450,7 +461,7 @@ export const contactDetails = {
 export const socialMediaUrl = {
     linkedin: "https://www.linkedin.com/in/utkarshgupta04092003",
     github: "https://www.github.com/utkarshgupta04092003",
-    twitter: "#",
+    twitter: "https://www.twitter.com/utkarsh04092003",
     instagram: "https://www.instagram.com/utkarsh_official",
   };
   

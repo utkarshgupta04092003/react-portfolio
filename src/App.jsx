@@ -23,7 +23,6 @@ export default function App() {
       <Navbar/>      
       
 
-
       <Routes>
         <Route>
           <Route path='/' element={<Home/>}/>
